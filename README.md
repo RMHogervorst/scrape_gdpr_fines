@@ -68,5 +68,7 @@ But extracting that data is quite some more work:
 
   - Profit
 
+![](top10offenders.png)
+
 I also tried it in pure text before I gave up and returned to html
 parsing.

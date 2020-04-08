@@ -68,7 +68,8 @@ table2 <- temp %>% stringi::stri_sub(from = starts[[1]][2,2], to = ends[[1]][2,1
   
   
   * Profit
-  
+
+![](top10offenders.png)  
   
   
   I also tried it in pure text before I gave up and returned to html parsing.

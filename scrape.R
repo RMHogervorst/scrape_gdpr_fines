@@ -23,5 +23,5 @@ table1 <- temp %>% stringi::stri_sub(from = starts[[1]][1,2], to = ends[[1]][1,1
 #   str_remove_all("\r") %>%  
 #   jsonlite::fromJSON()
 
-write.csv(table1, "data/all_fines.csv")
-#readr::write_tsv(table1, "data/all_fines.tsv")
+readr::write_csv(table1, "data/all_fines_raw.csv")
+
